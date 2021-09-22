@@ -34,7 +34,7 @@ import java.util.Scanner;
             for(int i=0;i<n;i++){
                 int s1=value(str.charAt(i));
                 if(i+1<n){
-                    int s2=value(str.charAt(i));
+                    int s2=value(str.charAt(i+1));
                     if(s1>=s2){
                         res=res+s1;
                     }
